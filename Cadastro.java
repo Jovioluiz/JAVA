@@ -14,7 +14,7 @@ public class Cadastro {
         rua = entrada.nextLine();
         System.out.println("Número: ");
         numero = entrada.nextInt();
-        entrada.nextLine();
+        entrada.nextLine();//limpa o buffer
         System.out.println("Bairro: ");
         bairro = entrada.nextLine();
         System.out.println("Cidade: ");
